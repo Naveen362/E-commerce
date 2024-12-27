@@ -7,11 +7,7 @@ export default function Navbar(){
         <div className="nav">
        <header><h1 className="text-primary">My Palace</h1></header>
        <header className="d-flex justify-content-evenly w-50">
-        {/* <a href="/">Home</a>
-        <a href="/electronics">Electronics</a>
-        <a href="/jeweleries">Jeweleres</a>
-        <a href="/Mens">Mens</a>
-        <a href="/Womens">Womens</a> */}
+        //link will give navigation
         <Link to="/">Home</Link>
         <Link to="/electronics">electronics</Link>
         <Link to="/jeweleries">Jeweleries</Link>

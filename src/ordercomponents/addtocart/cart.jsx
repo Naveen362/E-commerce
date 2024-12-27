@@ -9,6 +9,7 @@ elements();
 
 
     },[])
+    
     const elements=()=>{
         axios.get("http://localhost:3000/addToCart").then(
             (e)=>{setState(e.data)}
